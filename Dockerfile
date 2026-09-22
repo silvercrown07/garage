@@ -1,4 +1,4 @@
-FROM dxflrs/garage:2.4.0
+FROM dxflrs/garage:v2.4.1
 
 COPY garage.toml /etc/garage.toml
 
