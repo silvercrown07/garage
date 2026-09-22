@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Watches the "FROM dxflrs/garage:..." line in Dockerfile for new upstream releases
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
